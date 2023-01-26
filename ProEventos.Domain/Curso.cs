@@ -15,5 +15,7 @@ namespace ProEventos.Domain
         public int Duracao { get; set; }
 
         public decimal ValorCurso { get; set; }
+
+        public int QtdParticipantes { get; set; }
     }
 }
